@@ -1,0 +1,1057 @@
+{
+  "SurveyEntry": {
+    "SurveyID": "SV_bakkerij_leerlingen",
+    "SurveyName": "Vragenlijst Leerlingen Bakkerijonderwijs",
+    "SurveyDescription": "Onderzoek naar opleidings- en beroepskeuze in de bakkerijsector",
+    "SurveyOwnerID": "UR_2xzziPRjbGjSctq",
+    "SurveyBrandID": "mpiris",
+    "DivisionID": null,
+    "SurveyLanguage": "NL",
+    "SurveyActiveResponseSet": "RS_bakkerij_default",
+    "SurveyStatus": "Inactive",
+    "SurveyStartDate": "0000-00-00 00:00:00",
+    "SurveyExpirationDate": "0000-00-00 00:00:00",
+    "SurveyCreationDate": "2026-02-02 12:00:00",
+    "CreatorID": "UR_2xzziPRjbGjSctq",
+    "LastModified": "2026-02-02 12:00:00",
+    "LastAccessed": "0000-00-00 00:00:00",
+    "LastActivated": "0000-00-00 00:00:00",
+    "Deleted": null
+  },
+  "SurveyElements": [
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "BL",
+      "PrimaryAttribute": "Survey Blocks",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": [
+        {
+          "Type": "Default",
+          "Description": "Inleiding",
+          "ID": "BL_intro",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID_intro"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "1. Keuzemoment",
+          "ID": "BL_keuzemoment",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID1"},
+            {"Type": "Question", "QuestionID": "QID2"},
+            {"Type": "Question", "QuestionID": "QID3"},
+            {"Type": "Question", "QuestionID": "QID3_toelichting"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "2. Alternatieve studierichtingen",
+          "ID": "BL_alternatieven",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID4"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "3. Redenen om voor bakkerij te kiezen",
+          "ID": "BL_redenen_bakkerij",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID5"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "4. Redenen om andere opleidingen niet te kiezen",
+          "ID": "BL_redenen_andere",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID6"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "5. Tevredenheid",
+          "ID": "BL_tevredenheid",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID7"},
+            {"Type": "Question", "QuestionID": "QID8"},
+            {"Type": "Question", "QuestionID": "QID9"},
+            {"Type": "Question", "QuestionID": "QID10"},
+            {"Type": "Question", "QuestionID": "QID11"},
+            {"Type": "Question", "QuestionID": "QID12"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "6. Ouderlijke steun",
+          "ID": "BL_ouders",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID13"},
+            {"Type": "Question", "QuestionID": "QID14"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "7. Twijfel achteraf",
+          "ID": "BL_twijfel",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID15"},
+            {"Type": "Question", "QuestionID": "QID16"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "8. Stopzetting door anderen",
+          "ID": "BL_stopzetting",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID17"},
+            {"Type": "Question", "QuestionID": "QID18"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "9. Toekomstplannen na afstuderen",
+          "ID": "BL_toekomst",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID19"},
+            {"Type": "Question", "QuestionID": "QID19_toelichting"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "10. Toekomstige keuzes van medeleerlingen",
+          "ID": "BL_medeleerlingen",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID20"},
+            {"Type": "Question", "QuestionID": "QID21"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "11. Sectorimago en waardering",
+          "ID": "BL_imago",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID22"},
+            {"Type": "Question", "QuestionID": "QID23"}
+          ]
+        },
+        {
+          "Type": "Trash",
+          "Description": "Trash / Unused Questions",
+          "ID": "BL_trash"
+        }
+      ]
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "FL",
+      "PrimaryAttribute": "Survey Flow",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "Flow": [
+          {"ID": "BL_intro", "Type": "Block", "FlowID": "FL_1"},
+          {"ID": "BL_keuzemoment", "Type": "Block", "FlowID": "FL_2"},
+          {"ID": "BL_alternatieven", "Type": "Block", "FlowID": "FL_3"},
+          {"ID": "BL_redenen_bakkerij", "Type": "Block", "FlowID": "FL_4"},
+          {"ID": "BL_redenen_andere", "Type": "Block", "FlowID": "FL_5"},
+          {"ID": "BL_tevredenheid", "Type": "Block", "FlowID": "FL_6"},
+          {"ID": "BL_ouders", "Type": "Block", "FlowID": "FL_7"},
+          {"ID": "BL_twijfel", "Type": "Block", "FlowID": "FL_8"},
+          {"ID": "BL_stopzetting", "Type": "Block", "FlowID": "FL_9"},
+          {"ID": "BL_toekomst", "Type": "Block", "FlowID": "FL_10"},
+          {"ID": "BL_medeleerlingen", "Type": "Block", "FlowID": "FL_11"},
+          {"ID": "BL_imago", "Type": "Block", "FlowID": "FL_12"}
+        ],
+        "Properties": {"Count": 13},
+        "FlowID": "FL_0",
+        "Type": "Root"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "PL",
+      "PrimaryAttribute": "Preview Link",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "PreviewType": "Brand",
+        "PreviewID": "bakkerij-preview-001"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "PROJ",
+      "PrimaryAttribute": "CORE",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": "1.1.0",
+      "Payload": {
+        "ProjectCategory": "CORE",
+        "SchemaVersion": "1.1.0"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "QC",
+      "PrimaryAttribute": "Survey Question Count",
+      "SecondaryAttribute": "24",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "RS",
+      "PrimaryAttribute": "RS_bakkerij_default",
+      "SecondaryAttribute": "Default Response Set",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SCO",
+      "PrimaryAttribute": "Scoring",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ScoringCategories": [],
+        "ScoringCategoryGroups": [],
+        "ScoringSummaryCategory": null,
+        "ScoringSummaryAfterQuestions": 0,
+        "ScoringSummaryAfterSurvey": 0,
+        "DefaultScoringCategory": null,
+        "AutoScoringCategory": null
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SO",
+      "PrimaryAttribute": "Survey Options",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "BackButton": "true",
+        "SaveAndContinue": "true",
+        "SurveyProtection": "PublicSurvey",
+        "BallotBoxStuffingPrevention": "false",
+        "NoIndex": "Yes",
+        "SecureResponseFiles": "true",
+        "SurveyExpiration": "None",
+        "SurveyTermination": "DefaultMessage",
+        "Header": "",
+        "Footer": "",
+        "ProgressBarDisplay": "Text",
+        "PartialData": "+1 week",
+        "ValidationMessage": "",
+        "PreviousButton": "Vorige",
+        "NextButton": "Volgende",
+        "SurveyTitle": "Vragenlijst Leerlingen Bakkerijonderwijs",
+        "SkinLibrary": "Qualtrics",
+        "SkinType": "templated",
+        "Skin": {
+          "brandingId": null,
+          "templateId": "*base",
+          "overrides": null
+        },
+        "NewScoring": 1,
+        "SurveyMetaDescription": "Onderzoek naar opleidings- en beroepskeuze in de bakkerijsector door Alimento en Mpiris."
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID_intro",
+      "SecondaryAttribute": "Inleiding",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<strong>Vragenlijst - Leerlingen Bakkerijonderwijs</strong><br><br><strong>Inleiding</strong><br><br>Hartelijk dank om tijd vrij te maken voor dit gesprek over uw keuze voor een bakkerijopleiding.<br><br>Dit gesprek past in een onderzoek van Alimento, het opleidingsfonds voor de voedingsnijverheid, naar de redenen waarom jongeren wel of niet kiezen voor een bakkersopleiding en waarom ze al dan niet effectief in een bakkerij aan de slag gaan en blijven.<br><br>Mpiris staat als onderzoeksbureau in voor de uitvoering van het onderzoek.<br><br>Via de studie wil de sector een beter zicht krijgen op de factoren die bij de opleidings- en beroepskeuze spelen en hoe ze de aantrekkingskracht van de opleiding en het beroep kunnen vergroten.<br><br>Tijdens dit gesprek willen we vooral peilen naar waarom u bij een opleiding bakker bent terecht gekomen, naar uw tevredenheid over de opleiding en naar uw plannen na afstuderen. Het gesprek zal ongeveer 15 minuten duren.<br><br><strong>Verwerking gegevens:</strong> Alimento behandelt uw persoonsgegevens in overeenstemming met de Algemene Verordening Gegevensbescherming. Mpiris treedt in deze op als verwerker onder verantwoordelijkheid van Alimento. De gegevens die u via dit gesprek verstrekt zullen anoniem verwerkt worden en enkel gebruikt worden voor dit onderzoek en om de dienstverlening van Alimento af te stemmen op de behoeften van de sector. Uw antwoorden zullen maximaal tot drie jaar na afloop van het project bewaard worden. Meer informatie over jouw rechten en privacy vind je op <a href='https://www.alimento.be/nl/privacy-ipv'>https://www.alimento.be/nl/privacy-ipv</a>.",
+        "DataExportTag": "Intro",
+        "QuestionType": "DB",
+        "Selector": "TB",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Inleiding",
+        "Validation": {"Settings": {"ForceResponse": "OFF", "Type": "None"}},
+        "Language": [],
+        "QuestionID": "QID_intro"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID1",
+      "SecondaryAttribute": "Wanneer heb je beslist om de opleiding bakkerij te volgen?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<strong>1. Keuzemoment</strong><br><br>Wanneer heb je beslist om de opleiding bakkerij te volgen?",
+        "DataExportTag": "Q1_keuzemoment",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Wanneer heb je beslist om de opleiding bakkerij te volgen?",
+        "Choices": {
+          "1": {"Display": "Tijdens een infosessie/opendeurdag"},
+          "2": {"Display": "Na een gesprek met het CLB"},
+          "3": {"Display": "Na een gesprek met ouders/familie"},
+          "4": {"Display": "Na een stage-ervaring"},
+          "5": {"Display": "Op een ander moment", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5"],
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "NextChoiceId": 6,
+        "NextAnswerId": 1,
+        "QuestionID": "QID1"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID2",
+      "SecondaryAttribute": "Hoe oud was je toen ongeveer?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Hoe oud was je toen ongeveer?",
+        "DataExportTag": "Q2_leeftijd",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Hoe oud was je toen ongeveer?",
+        "Choices": {
+          "1": {"Display": "Jonger dan 12 jaar/lagere school"},
+          "2": {"Display": "12-13 jaar/eerste graad middelbaar"},
+          "3": {"Display": "14-15 jaar/tweede graad middelbaar"},
+          "4": {"Display": "16 jaar of ouder/derde graad middelbaar"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4"],
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "NextChoiceId": 5,
+        "NextAnswerId": 1,
+        "QuestionID": "QID2"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID3",
+      "SecondaryAttribute": "Had je voldoende tijd om na te denken over je keuze?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Had je voldoende tijd om na te denken over je keuze?",
+        "DataExportTag": "Q3_tijd",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Had je voldoende tijd om na te denken over je keuze?",
+        "Choices": {
+          "1": {"Display": "Ja"},
+          "2": {"Display": "Nee"}
+        },
+        "ChoiceOrder": ["1", "2"],
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "NextChoiceId": 3,
+        "NextAnswerId": 1,
+        "QuestionID": "QID3"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID3_toelichting",
+      "SecondaryAttribute": "Toelichting keuzemoment",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Toelichting:",
+        "DataExportTag": "Q3_toelichting",
+        "QuestionType": "TE",
+        "Selector": "SL",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Toelichting keuzemoment",
+        "Validation": {"Settings": {"ForceResponse": "OFF", "Type": "None"}},
+        "Language": [],
+        "QuestionID": "QID3_toelichting"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID4",
+      "SecondaryAttribute": "Heb je ook andere studierichtingen overwogen?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<strong>2. Alternatieve studierichtingen</strong><br><br>Heb je ook andere studierichtingen overwogen?",
+        "DataExportTag": "Q4_alternatieven",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Heb je ook andere studierichtingen overwogen?",
+        "Choices": {
+          "1": {"Display": "Nee, ik heb niet echt alternatieven overwogen"},
+          "2": {"Display": "Ja, ik twijfelde vooral tussen (max. 2 invullen):", "TextEntry": "true", "TextEntrySize": "Large"}
+        },
+        "ChoiceOrder": ["1", "2"],
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "NextChoiceId": 3,
+        "NextAnswerId": 1,
+        "QuestionID": "QID4"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID5",
+      "SecondaryAttribute": "Welke factoren speelden een belangrijke rol in jouw keuze?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<strong>3. Redenen om voor bakkerij te kiezen</strong><br><br>Welke factoren speelden een belangrijke rol in jouw keuze? (meerdere antwoorden mogelijk)",
+        "DataExportTag": "Q5_factoren_bakkerij",
+        "QuestionType": "MC",
+        "Selector": "MAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Welke factoren speelden een belangrijke rol in jouw keuze?",
+        "Choices": {
+          "1": {"Display": "Interesse/passie voor bakken"},
+          "2": {"Display": "Omdat het makkelijk leek/was"},
+          "3": {"Display": "Toekomstperspectief (bv. werkzekerheid)"},
+          "4": {"Display": "Advies van ouders/familie"},
+          "5": {"Display": "Advies van leerkrachten/CLB"},
+          "6": {"Display": "Keuze en steun van vrienden"},
+          "7": {"Display": "Positieve ervaring tijdens kennismakingsmoment/opendeurdag"},
+          "8": {"Display": "Praktische redenen (nabijheid, internaat ...)"},
+          "9": {"Display": "Andere", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "NextChoiceId": 10,
+        "NextAnswerId": 1,
+        "QuestionID": "QID5"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID6",
+      "SecondaryAttribute": "Welke factoren speelden mee in je beslissing om andere richtingen niet te kiezen?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<strong>4. Redenen om andere opleidingen niet te kiezen</strong><br><br>Welke factoren speelden mee in je beslissing om andere richtingen niet te kiezen? (meerdere antwoorden mogelijk)",
+        "DataExportTag": "Q6_factoren_andere",
+        "QuestionType": "MC",
+        "Selector": "MAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Welke factoren speelden mee in je beslissing om andere richtingen niet te kiezen?",
+        "Choices": {
+          "1": {"Display": "Minder interesse in de inhoud"},
+          "2": {"Display": "Te moeilijk"},
+          "3": {"Display": "Minder toekomstperspectief"},
+          "4": {"Display": "Advies van ouders/familie"},
+          "5": {"Display": "Advies van leerkrachten/CLB"},
+          "6": {"Display": "Keuze en ontbreken van steun van vrienden"},
+          "7": {"Display": "Negatieve ervaring tijdens kennismakingsmoment/opendeurdag"},
+          "8": {"Display": "Praktische redenen (bereikbaarheid, kostprijs, ...)"},
+          "9": {"Display": "Andere", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "NextChoiceId": 10,
+        "NextAnswerId": 1,
+        "QuestionID": "QID6"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID7",
+      "SecondaryAttribute": "Hoe tevreden ben je met je opleidingskeuze?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<strong>5. Tevredenheid</strong><br><br>Hoe tevreden ben je met je opleidingskeuze?<br>(schaal 1 = helemaal niet tevreden, 10 = zeer tevreden)",
+        "DataExportTag": "Q7_tevredenheid_keuze",
+        "QuestionType": "Slider",
+        "Selector": "HSLIDER",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText", "CSSliderMin": 1, "CSSliderMax": 10, "GridLines": 10, "NumDecimals": "0", "ShowValue": true, "SnapToGrid": true, "CustomStart": false, "NotApplicable": false, "MobileFirst": true},
+        "QuestionDescription": "Hoe tevreden ben je met je opleidingskeuze?",
+        "Choices": {
+          "1": {"Display": "Score"}
+        },
+        "ChoiceOrder": ["1"],
+        "Labels": {
+          "1": {"Display": "1 - Helemaal niet tevreden"},
+          "10": {"Display": "10 - Zeer tevreden"}
+        },
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "QuestionID": "QID7"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID8",
+      "SecondaryAttribute": "Zou je opnieuw voor bakkerij kiezen?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Zou je opnieuw voor bakkerij kiezen?",
+        "DataExportTag": "Q8_opnieuw_kiezen",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Zou je opnieuw voor bakkerij kiezen?",
+        "Choices": {
+          "1": {"Display": "Zeker niet"},
+          "2": {"Display": "Wellicht niet"},
+          "3": {"Display": "Neutraal"},
+          "4": {"Display": "Wellicht wel"},
+          "5": {"Display": "Zeker en vast"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5"],
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "NextChoiceId": 6,
+        "NextAnswerId": 1,
+        "QuestionID": "QID8"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID9",
+      "SecondaryAttribute": "Waarom zou je een andere keuze maken?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Indien 'Zeker niet' of 'Wellicht niet': Waarom zou je een andere keuze maken? (meerdere keuzes mogelijk)",
+        "DataExportTag": "Q9_andere_keuze_reden",
+        "QuestionType": "MC",
+        "Selector": "MAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Waarom zou je een andere keuze maken?",
+        "Choices": {
+          "1": {"Display": "Mijn ervaring van de opleiding komt niet overeen met mijn verwachting, nl.", "TextEntry": "true", "TextEntrySize": "Medium"},
+          "2": {"Display": "Mijn huidig zicht op de beroepsperspectieven komt niet overeen met mijn verwachtingen, nl.", "TextEntry": "true", "TextEntrySize": "Medium"},
+          "3": {"Display": "Andere, nl.", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3"],
+        "Validation": {"Settings": {"ForceResponse": "OFF", "Type": "None"}},
+        "DisplayLogic": {
+          "0": {
+            "0": {
+              "LogicType": "Question",
+              "QuestionID": "QID8",
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://QID8/SelectableChoice/1",
+              "Operator": "Selected",
+              "Type": "Expression",
+              "Description": "If Zeker niet is Selected"
+            },
+            "1": {
+              "LogicType": "Question",
+              "QuestionID": "QID8",
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://QID8/SelectableChoice/2",
+              "Operator": "Selected",
+              "Type": "Expression",
+              "Description": "If Wellicht niet is Selected"
+            },
+            "Type": "If",
+            "Description": "If Zeker niet is Selected or Wellicht niet is Selected"
+          },
+          "Type": "BooleanExpression",
+          "inPage": false
+        },
+        "Language": [],
+        "NextChoiceId": 4,
+        "NextAnswerId": 1,
+        "QuestionID": "QID9"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID10",
+      "SecondaryAttribute": "Hoe tevreden ben je met de begeleiding en de kwaliteit van de opleiding?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Hoe tevreden ben je met de begeleiding en de kwaliteit van de opleiding?<br>(schaal 1 = helemaal niet tevreden, 10 = zeer tevreden)",
+        "DataExportTag": "Q10_tevredenheid_kwaliteit",
+        "QuestionType": "Slider",
+        "Selector": "HSLIDER",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText", "CSSliderMin": 1, "CSSliderMax": 10, "GridLines": 10, "NumDecimals": "0", "ShowValue": true, "SnapToGrid": true, "CustomStart": false, "NotApplicable": false, "MobileFirst": true},
+        "QuestionDescription": "Hoe tevreden ben je met de begeleiding en de kwaliteit van de opleiding?",
+        "Choices": {
+          "1": {"Display": "Score"}
+        },
+        "ChoiceOrder": ["1"],
+        "Labels": {
+          "1": {"Display": "1 - Helemaal niet tevreden"},
+          "10": {"Display": "10 - Zeer tevreden"}
+        },
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "QuestionID": "QID10"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID11",
+      "SecondaryAttribute": "Wat mis je of valt tegen in de opleiding?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Wat mis je of valt tegen in de opleiding?",
+        "DataExportTag": "Q11_tegenvalt",
+        "QuestionType": "TE",
+        "Selector": "ML",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Wat mis je of valt tegen in de opleiding?",
+        "Validation": {"Settings": {"ForceResponse": "OFF", "Type": "None"}},
+        "Language": [],
+        "QuestionID": "QID11"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID12",
+      "SecondaryAttribute": "Wat vind je top in deze opleiding?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Wat vind je top in deze opleiding?",
+        "DataExportTag": "Q12_top",
+        "QuestionType": "TE",
+        "Selector": "ML",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Wat vind je top in deze opleiding?",
+        "Validation": {"Settings": {"ForceResponse": "OFF", "Type": "None"}},
+        "Language": [],
+        "QuestionID": "QID12"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID13",
+      "SecondaryAttribute": "Hoe reageerden je ouders aanvankelijk op jouw keuze?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<strong>6. Ouderlijke steun</strong><br><br>Hoe reageerden je ouders aanvankelijk op jouw keuze?",
+        "DataExportTag": "Q13_ouders_aanvankelijk",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Hoe reageerden je ouders aanvankelijk op jouw keuze?",
+        "Choices": {
+          "1": {"Display": "Positief"},
+          "2": {"Display": "Neutraal"},
+          "3": {"Display": "Negatief"},
+          "4": {"Display": "Ik weet het niet"},
+          "5": {"Display": "Andere", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5"],
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "NextChoiceId": 6,
+        "NextAnswerId": 1,
+        "QuestionID": "QID13"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID14",
+      "SecondaryAttribute": "Hoe kijken ze er nu tegenaan?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Hoe kijken ze er nu tegenaan?",
+        "DataExportTag": "Q14_ouders_nu",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Hoe kijken ze er nu tegenaan?",
+        "Choices": {
+          "1": {"Display": "Positief"},
+          "2": {"Display": "Neutraal"},
+          "3": {"Display": "Negatief"},
+          "4": {"Display": "Ik weet het niet"},
+          "5": {"Display": "Andere", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5"],
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "NextChoiceId": 6,
+        "NextAnswerId": 1,
+        "QuestionID": "QID14"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID15",
+      "SecondaryAttribute": "Heb je sinds je keuze getwijfeld over je opleiding?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<strong>7. Twijfel achteraf</strong><br><br>Heb je sinds je keuze getwijfeld over je opleiding?",
+        "DataExportTag": "Q15_twijfel",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Heb je sinds je keuze getwijfeld over je opleiding?",
+        "Choices": {
+          "1": {"Display": "Neen"},
+          "2": {"Display": "Ja, tijdens het eerste jaar"},
+          "3": {"Display": "Ja, tijdens een stage"},
+          "4": {"Display": "Ja, op een ander moment:", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4"],
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "NextChoiceId": 5,
+        "NextAnswerId": 1,
+        "QuestionID": "QID15"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID16",
+      "SecondaryAttribute": "Indien ja, waarom heb je getwijfeld?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Indien ja, waarom?",
+        "DataExportTag": "Q16_twijfel_reden",
+        "QuestionType": "MC",
+        "Selector": "MAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Indien ja, waarom heb je getwijfeld?",
+        "Choices": {
+          "1": {"Display": "Omwille van werkvoorwaarden in bakkerijsector"},
+          "2": {"Display": "Omwille van de stage-omstandigheden"},
+          "3": {"Display": "Andere redenen:", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3"],
+        "Validation": {"Settings": {"ForceResponse": "OFF", "Type": "None"}},
+        "DisplayLogic": {
+          "0": {
+            "0": {
+              "LogicType": "Question",
+              "QuestionID": "QID15",
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://QID15/SelectableChoice/2",
+              "Operator": "Selected",
+              "Type": "Expression",
+              "Description": "If Ja, tijdens het eerste jaar is Selected"
+            },
+            "1": {
+              "LogicType": "Question",
+              "QuestionID": "QID15",
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://QID15/SelectableChoice/3",
+              "Operator": "Selected",
+              "Type": "Expression",
+              "Description": "If Ja, tijdens een stage is Selected"
+            },
+            "2": {
+              "LogicType": "Question",
+              "QuestionID": "QID15",
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://QID15/SelectableChoice/4",
+              "Operator": "Selected",
+              "Type": "Expression",
+              "Description": "If Ja, op een ander moment is Selected"
+            },
+            "Type": "If",
+            "Description": "If any Ja option is Selected"
+          },
+          "Type": "BooleanExpression",
+          "inPage": false
+        },
+        "Language": [],
+        "NextChoiceId": 4,
+        "NextAnswerId": 1,
+        "QuestionID": "QID16"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID17",
+      "SecondaryAttribute": "Ken je leerlingen die de opleiding hebben stopgezet?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<strong>8. Stopzetting door anderen</strong><br><br>Ken je leerlingen die de opleiding hebben stopgezet?",
+        "DataExportTag": "Q17_stopzetting",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Ken je leerlingen die de opleiding hebben stopgezet?",
+        "Choices": {
+          "1": {"Display": "Neen"},
+          "2": {"Display": "Ja"}
+        },
+        "ChoiceOrder": ["1", "2"],
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "NextChoiceId": 3,
+        "NextAnswerId": 1,
+        "QuestionID": "QID17"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID18",
+      "SecondaryAttribute": "Welke redenen speelden hierbij een rol?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Volgens jou, welke redenen speelden hierbij een rol? (meerdere antwoorden mogelijk)",
+        "DataExportTag": "Q18_stopzetting_reden",
+        "QuestionType": "MC",
+        "Selector": "MAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Welke redenen speelden hierbij een rol?",
+        "Choices": {
+          "1": {"Display": "Studielast"},
+          "2": {"Display": "Gebrek aan motivatie"},
+          "3": {"Display": "Moeilijkheden buiten school (familiaal, financieel ...)"},
+          "4": {"Display": "Omwille van werkvoorwaarden in bakkerijsector"},
+          "5": {"Display": "Negatieve ervaring tijdens stage"},
+          "6": {"Display": "Andere:", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5", "6"],
+        "Validation": {"Settings": {"ForceResponse": "OFF", "Type": "None"}},
+        "DisplayLogic": {
+          "0": {
+            "0": {
+              "LogicType": "Question",
+              "QuestionID": "QID17",
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://QID17/SelectableChoice/2",
+              "Operator": "Selected",
+              "Type": "Expression",
+              "Description": "If Ja is Selected"
+            },
+            "Type": "If",
+            "Description": "If Ja is Selected"
+          },
+          "Type": "BooleanExpression",
+          "inPage": false
+        },
+        "Language": [],
+        "NextChoiceId": 7,
+        "NextAnswerId": 1,
+        "QuestionID": "QID18"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID19",
+      "SecondaryAttribute": "Wat wil je doen onmiddellijk na je afstuderen?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<strong>9. Toekomstplannen na afstuderen</strong><br><br>Wat wil je doen onmiddellijk na je afstuderen?",
+        "DataExportTag": "Q19_toekomst",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Wat wil je doen onmiddellijk na je afstuderen?",
+        "Choices": {
+          "1": {"Display": "Verder studeren"},
+          "2": {"Display": "In een kleine bakkerij werken"},
+          "3": {"Display": "In een industriele bakkerij werken"},
+          "4": {"Display": "In een niche (ijs, chocolade ...)"},
+          "5": {"Display": "Een eigen zaak starten"},
+          "6": {"Display": "Gaan werken buiten de bakkerijsector"},
+          "7": {"Display": "Ik weet het (nog) niet"},
+          "8": {"Display": "Andere:", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5", "6", "7", "8"],
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "NextChoiceId": 9,
+        "NextAnswerId": 1,
+        "QuestionID": "QID19"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID19_toelichting",
+      "SecondaryAttribute": "Toelichting toekomstplannen",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Toelichting:",
+        "DataExportTag": "Q19_toelichting",
+        "QuestionType": "TE",
+        "Selector": "ML",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Toelichting toekomstplannen",
+        "Validation": {"Settings": {"ForceResponse": "OFF", "Type": "None"}},
+        "Language": [],
+        "QuestionID": "QID19_toelichting"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID20",
+      "SecondaryAttribute": "Ken je leerlingen die na de opleiding waarschijnlijk een andere weg zullen inslaan?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<strong>10. Toekomstige keuzes van medeleerlingen</strong><br><br>Ken je leerlingen die na de opleiding waarschijnlijk een andere weg zullen inslaan?",
+        "DataExportTag": "Q20_medeleerlingen",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Ken je leerlingen die na de opleiding waarschijnlijk een andere weg zullen inslaan?",
+        "Choices": {
+          "1": {"Display": "Neen"},
+          "2": {"Display": "Ja"}
+        },
+        "ChoiceOrder": ["1", "2"],
+        "Validation": {"Settings": {"ForceResponse": "ON", "Type": "None"}},
+        "Language": [],
+        "NextChoiceId": 3,
+        "NextAnswerId": 1,
+        "QuestionID": "QID20"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID21",
+      "SecondaryAttribute": "Welke redenen spelen een rol bij hun keuze?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Volgens jou, welke redenen spelen een rol bij hun keuze? (contextuele inschatting)",
+        "DataExportTag": "Q21_medeleerlingen_reden",
+        "QuestionType": "MC",
+        "Selector": "MAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Welke redenen spelen een rol bij hun keuze?",
+        "Choices": {
+          "1": {"Display": "Andere interesses"},
+          "2": {"Display": "Geen motivatie voor bakkerij"},
+          "3": {"Display": "Moeilijkheden tijdens de opleiding"},
+          "4": {"Display": "Andere:", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4"],
+        "Validation": {"Settings": {"ForceResponse": "OFF", "Type": "None"}},
+        "DisplayLogic": {
+          "0": {
+            "0": {
+              "LogicType": "Question",
+              "QuestionID": "QID20",
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://QID20/SelectableChoice/2",
+              "Operator": "Selected",
+              "Type": "Expression",
+              "Description": "If Ja is Selected"
+            },
+            "Type": "If",
+            "Description": "If Ja is Selected"
+          },
+          "Type": "BooleanExpression",
+          "inPage": false
+        },
+        "Language": [],
+        "NextChoiceId": 5,
+        "NextAnswerId": 1,
+        "QuestionID": "QID21"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID22",
+      "SecondaryAttribute": "Hoe ervaar je de kijk van de samenleving op het beroep van bakker?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<strong>11. Sectorimago en waardering</strong><br><br>Hoe ervaar je de kijk van de samenleving op het beroep van bakker?",
+        "DataExportTag": "Q22_imago",
+        "QuestionType": "TE",
+        "Selector": "ML",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Hoe ervaar je de kijk van de samenleving op het beroep van bakker?",
+        "Validation": {"Settings": {"ForceResponse": "OFF", "Type": "None"}},
+        "Language": [],
+        "QuestionID": "QID22"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID23",
+      "SecondaryAttribute": "Hoe beinvloedt deze kijk jouw motivatie of keuze?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Hoe beinvloedt deze kijk van de samenleving jouw motivatie of keuze om de opleiding bakkerij te volgen of om in het beroep aan de slag te gaan?",
+        "DataExportTag": "Q23_invloed_imago",
+        "QuestionType": "TE",
+        "Selector": "ML",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Hoe beinvloedt deze kijk jouw motivatie of keuze?",
+        "Validation": {"Settings": {"ForceResponse": "OFF", "Type": "None"}},
+        "Language": [],
+        "QuestionID": "QID23"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerij_leerlingen",
+      "Element": "STAT",
+      "PrimaryAttribute": "Survey Statistics",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "MobileCompatible": true,
+        "ID": "Survey Statistics"
+      }
+    }
+  ]
+}
