@@ -1,0 +1,534 @@
+{
+  "SurveyEntry": {
+    "SurveyID": "SV_bakkerijFR2026",
+    "SurveyName": "Enquête Élèves en formation boulangère - FR",
+    "SurveyDescription": null,
+    "SurveyOwnerID": "UR_2xzziPRjbGjSctq",
+    "SurveyBrandID": "mpiris",
+    "DivisionID": null,
+    "SurveyLanguage": "FR",
+    "SurveyActiveResponseSet": "RS_bakkerijFR2026",
+    "SurveyStatus": "Inactive",
+    "SurveyStartDate": "0000-00-00 00:00:00",
+    "SurveyExpirationDate": "0000-00-00 00:00:00",
+    "SurveyCreationDate": "2026-02-04 00:00:00",
+    "CreatorID": "UR_2xzziPRjbGjSctq",
+    "LastModified": "2026-02-04 00:00:00",
+    "LastAccessed": "0000-00-00 00:00:00",
+    "LastActivated": "0000-00-00 00:00:00",
+    "Deleted": null
+  },
+  "SurveyElements": [
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "BL",
+      "PrimaryAttribute": "Survey Blocks",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": [
+        {
+          "Type": "Default",
+          "Description": "Introduction",
+          "ID": "BL_intro",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID1"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "Formation et profil",
+          "ID": "BL_profil",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID2"},
+            {"Type": "Question", "QuestionID": "QID3"},
+            {"Type": "Question", "QuestionID": "QID4"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "Choix de formation",
+          "ID": "BL_choix",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID5"},
+            {"Type": "Question", "QuestionID": "QID6"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "Satisfaction",
+          "ID": "BL_satisfaction",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID7"},
+            {"Type": "Question", "QuestionID": "QID8"}
+          ]
+        },
+        {
+          "Type": "Standard",
+          "Description": "Avenir",
+          "ID": "BL_avenir",
+          "BlockElements": [
+            {"Type": "Question", "QuestionID": "QID9"}
+          ]
+        },
+        {
+          "Type": "Trash",
+          "Description": "Trash / Unused Questions",
+          "ID": "BL_trash"
+        }
+      ]
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "FL",
+      "PrimaryAttribute": "Survey Flow",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "Flow": [
+          {"ID": "BL_intro", "Type": "Block", "FlowID": "FL_2"},
+          {"ID": "BL_profil", "Type": "Block", "FlowID": "FL_3"},
+          {"ID": "BL_choix", "Type": "Block", "FlowID": "FL_4"},
+          {"ID": "BL_satisfaction", "Type": "Block", "FlowID": "FL_5"},
+          {"ID": "BL_avenir", "Type": "Block", "FlowID": "FL_6"}
+        ],
+        "Properties": {"Count": 6},
+        "FlowID": "FL_1",
+        "Type": "Root"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "PL",
+      "PrimaryAttribute": "Preview Link",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "PreviewType": "Brand",
+        "PreviewID": "b5240e85-1bc6-41e3-c9ef-e59c92e7e16e"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "PROJ",
+      "PrimaryAttribute": "CORE",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": "1.1.0",
+      "Payload": {
+        "ProjectCategory": "CORE",
+        "SchemaVersion": "1.1.0"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "QC",
+      "PrimaryAttribute": "Survey Question Count",
+      "SecondaryAttribute": "9",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "RS",
+      "PrimaryAttribute": "RS_bakkerijFR2026",
+      "SecondaryAttribute": "Default Response Set",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "SCO",
+      "PrimaryAttribute": "Scoring",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ScoringCategories": [],
+        "ScoringCategoryGroups": [],
+        "ScoringSummaryCategory": null,
+        "ScoringSummaryAfterQuestions": 0,
+        "ScoringSummaryAfterSurvey": 0,
+        "DefaultScoringCategory": null,
+        "AutoScoringCategory": null
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "SO",
+      "PrimaryAttribute": "Survey Options",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "BackButton": "false",
+        "SaveAndContinue": "true",
+        "SurveyProtection": "PublicSurvey",
+        "BallotBoxStuffingPrevention": "false",
+        "NoIndex": "Yes",
+        "SecureResponseFiles": "true",
+        "SurveyExpiration": "None",
+        "SurveyTermination": "DefaultMessage",
+        "Header": "",
+        "Footer": "",
+        "ProgressBarDisplay": "None",
+        "PartialData": "+1 week",
+        "ValidationMessage": "",
+        "PreviousButton": "",
+        "NextButton": "",
+        "SurveyTitle": "Enquête Élèves en formation boulangère",
+        "SkinLibrary": "Qualtrics",
+        "SkinType": "templated",
+        "Skin": {
+          "brandingId": null,
+          "templateId": "*base",
+          "overrides": null
+        },
+        "NewScoring": 1,
+        "SurveyMetaDescription": "Enquête sur le choix de formation en boulangerie - Alimento / Mpiris"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID1",
+      "SecondaryAttribute": "Introduction",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<h2>Questionnaire – Élèves en formation boulangère</h2><br><p>Merci beaucoup de vouloir participer à cette enquête sur votre choix de suivre une formation en boulangerie.</p><p>Cette enquête s'inscrit dans le cadre d'une étude menée par Alimento, le fonds de formation pour l'industrie alimentaire, sur les raisons pour lesquelles les jeunes choisissent ou non de suivre une formation en boulangerie et pourquoi ils commencent ou non à travailler dans une boulangerie et y restent.</p><p>Mpiris, une agence de recherche est chargée de la réalisation de cette étude.</p><p>Grâce à cette étude, le secteur souhaite mieux comprendre les facteurs qui influencent le choix de la formation et de la profession et comment il peut renforcer l'attractivité de la formation et de la profession.</p><p>Cette enquête évalue pourquoi vous avez choisi une formation de boulanger, si vous êtes satisfait de cette formation et quels sont vos projets après l'obtention de votre diplôme. L'entretien durera pas plus que 5 minutes.</p><p><strong>Traitement des données :</strong> Alimento traite vos données à caractère personnel conformément au règlement général sur la protection des données. Mpiris agit en tant que sous-traitant sous la responsabilité d'Alimento. Les données que vous fournirez lors de cet entretien seront traitées de manière anonyme et utilisées uniquement dans le cadre de cette enquête et afin d'adapter les services d'Alimento aux besoins du secteur. Vos réponses seront conservées pendant trois ans maximum après la fin du projet. Vous trouverez plus d'informations sur vos droits et la protection de votre vie privée sur <a href=\"https://www.alimento.be/nl/privacy-ipv\" target=\"_blank\">https://www.alimento.be/nl/privacy-ipv</a>.</p>",
+        "DataExportTag": "Intro",
+        "QuestionType": "DB",
+        "Selector": "TB",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Introduction",
+        "Validation": {"Settings": {"Type": "None"}},
+        "Language": [],
+        "QuestionID": "QID1"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID2",
+      "SecondaryAttribute": "Quelle formation suis-tu ?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Quelle formation suis-tu ?",
+        "DataExportTag": "Q1_Formation",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Quelle formation suis-tu ?",
+        "Choices": {
+          "1": {"Display": "Ouvrier boulanger-pâtissier"},
+          "2": {"Display": "Artisan boulanger-pâtissier"},
+          "3": {"Display": "7ième Chocolatier – Confiseur – Glacier"},
+          "4": {"Display": "7ième Traiteur – Organisateur de Banquets et de Réceptions"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4"],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "Type": "None"
+          }
+        },
+        "Language": [],
+        "NextChoiceId": 5,
+        "NextAnswerId": 1,
+        "QuestionID": "QID2"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID3",
+      "SecondaryAttribute": "En quelle année êtes-vous ?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "En quelle année êtes-vous ?",
+        "DataExportTag": "Q2_Annee",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "En quelle année êtes-vous ?",
+        "Choices": {
+          "1": {"Display": "5e année"},
+          "2": {"Display": "6e année"}
+        },
+        "ChoiceOrder": ["1", "2"],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "Type": "None"
+          }
+        },
+        "DisplayLogic": {
+          "0": {
+            "0": {
+              "LogicType": "Question",
+              "QuestionID": "QID2",
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://QID2/SelectableChoice/1",
+              "Operator": "Selected",
+              "QuestionIDFromLocator": "QID2",
+              "LeftOperand": "q://QID2/SelectableChoice/1",
+              "Type": "Expression",
+              "Description": "<span class=\"ConjDesc\">Si</span> <span class=\"QuestionDesc\">Quelle formation suis-tu ?</span> <span class=\"ChoiceDesc\">Ouvrier boulanger-pâtissier</span> <span class=\"OpDesc\">Est sélectionné(e)</span>"
+            },
+            "1": {
+              "LogicType": "Question",
+              "QuestionID": "QID2",
+              "QuestionIsInLoop": "no",
+              "ChoiceLocator": "q://QID2/SelectableChoice/2",
+              "Operator": "Selected",
+              "QuestionIDFromLocator": "QID2",
+              "LeftOperand": "q://QID2/SelectableChoice/2",
+              "Type": "Expression",
+              "Description": "<span class=\"ConjDesc\">Ou</span> <span class=\"QuestionDesc\">Quelle formation suis-tu ?</span> <span class=\"ChoiceDesc\">Artisan boulanger-pâtissier</span> <span class=\"OpDesc\">Est sélectionné(e)</span>",
+              "Conjuction": "Or"
+            },
+            "Type": "If"
+          },
+          "Type": "BooleanExpression",
+          "inPage": false
+        },
+        "Language": [],
+        "NextChoiceId": 3,
+        "NextAnswerId": 1,
+        "QuestionID": "QID3"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID4",
+      "SecondaryAttribute": "Quel âge avez-vous maintenant ?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Quel âge avez-vous maintenant ?",
+        "DataExportTag": "Q3_Age",
+        "QuestionType": "TE",
+        "Selector": "SL",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Quel âge avez-vous maintenant ?",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "Type": "ContentType",
+            "ContentType": "ValidNumber",
+            "MinValue": "10",
+            "MaxValue": "99"
+          }
+        },
+        "Language": [],
+        "NextChoiceId": 1,
+        "NextAnswerId": 1,
+        "DefaultChoices": false,
+        "QuestionID": "QID4"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID5",
+      "SecondaryAttribute": "Quel âge aviez-vous lorsque vous avez décidé de suivre une formation en boulangerie ?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Quel âge aviez-vous lorsque vous avez décidé de suivre une formation en boulangerie ?",
+        "DataExportTag": "Q4_AgeDecision",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Quel âge aviez-vous lorsque vous avez décidé de suivre une formation en boulangerie ?",
+        "Choices": {
+          "1": {"Display": "Moins de 12 ans / école primaire"},
+          "2": {"Display": "12-13 ans / premier degré de l'enseignement secondaire"},
+          "3": {"Display": "14-15 ans / deuxième cycle de l'enseignement secondaire"},
+          "4": {"Display": "16 ans ou plus / troisième degré de l'enseignement secondaire"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4"],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "Type": "None"
+          }
+        },
+        "Language": [],
+        "NextChoiceId": 5,
+        "NextAnswerId": 1,
+        "QuestionID": "QID5"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID6",
+      "SecondaryAttribute": "Quels facteurs ont joué un rôle important dans votre choix de suivre une formation en boulangerie ?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Quels facteurs ont joué un rôle important dans votre choix de suivre une formation en boulangerie ?<br><em>(plusieurs réponses possibles)</em>",
+        "DataExportTag": "Q5_FacteursChoix",
+        "QuestionType": "MC",
+        "Selector": "MAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Quels facteurs ont joué un rôle important dans votre choix de suivre une formation en boulangerie ?",
+        "Choices": {
+          "1": {"Display": "Intérêt / passion pour la boulangerie"},
+          "2": {"Display": "Parce que cela semblait / était facile"},
+          "3": {"Display": "Perspectives d'avenir (par exemple, sécurité de l'emploi)"},
+          "4": {"Display": "Conseils des parents / de la famille"},
+          "5": {"Display": "Conseils des enseignants / CLB"},
+          "6": {"Display": "Choix et soutien des amis"},
+          "7": {"Display": "Expérience positive lors de la journée portes ouvertes / de présentation"},
+          "8": {"Display": "Raisons pratiques (proximité, internat, etc.)"},
+          "9": {"Display": "Autre :", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "Type": "None"
+          }
+        },
+        "Language": [],
+        "NextChoiceId": 10,
+        "NextAnswerId": 1,
+        "QuestionID": "QID6"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID7",
+      "SecondaryAttribute": "Dans quelle mesure êtes-vous satisfait(e) de la formation ?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Dans quelle mesure êtes-vous satisfait(e) de la formation ?<br><em>(1 = pas du tout satisfait, 10 = très satisfait)</em>",
+        "DataExportTag": "Q6_Satisfaction",
+        "QuestionType": "MC",
+        "Selector": "SAHR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Dans quelle mesure êtes-vous satisfait(e) de la formation ?",
+        "Choices": {
+          "1": {"Display": "1"},
+          "2": {"Display": "2"},
+          "3": {"Display": "3"},
+          "4": {"Display": "4"},
+          "5": {"Display": "5"},
+          "6": {"Display": "6"},
+          "7": {"Display": "7"},
+          "8": {"Display": "8"},
+          "9": {"Display": "9"},
+          "10": {"Display": "10"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "Type": "None"
+          }
+        },
+        "Language": [],
+        "NextChoiceId": 11,
+        "NextAnswerId": 1,
+        "QuestionID": "QID7"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID8",
+      "SecondaryAttribute": "Quels facteurs influencent votre satisfaction (positive ou négative) ?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Quels facteurs influencent votre satisfaction (positive ou négative) ?",
+        "DataExportTag": "Q7_FacteursSatisfaction",
+        "QuestionType": "MC",
+        "Selector": "MAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Quels facteurs influencent votre satisfaction (positive ou négative) ?",
+        "Choices": {
+          "1": {"Display": "Correspond à mes intérêts"},
+          "2": {"Display": "Les enseignants"},
+          "3": {"Display": "Le matériel dans l'atelier"},
+          "4": {"Display": "L'apprentissage / la pratique des techniques de boulangerie"},
+          "5": {"Display": "Me prépare bien à ma future profession"},
+          "6": {"Display": "Stages"},
+          "7": {"Display": "Le niveau de difficulté"},
+          "8": {"Display": "Aspects pratiques (proximité, internat, transports en commun, etc.)"},
+          "9": {"Display": "Autres :", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "Type": "None"
+          }
+        },
+        "Language": [],
+        "NextChoiceId": 10,
+        "NextAnswerId": 1,
+        "QuestionID": "QID8"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID9",
+      "SecondaryAttribute": "Que souhaitez-vous faire immédiatement après l'obtention de votre diplôme ?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "Que souhaitez-vous faire immédiatement après l'obtention de votre diplôme ?",
+        "DataExportTag": "Q8_ApresDiplome",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "DataVisibility": {"Private": false, "Hidden": false},
+        "Configuration": {"QuestionDescriptionOption": "UseText"},
+        "QuestionDescription": "Que souhaitez-vous faire immédiatement après l'obtention de votre diplôme ?",
+        "Choices": {
+          "1": {"Display": "Poursuivre vos études"},
+          "2": {"Display": "Travailler dans une petite boulangerie"},
+          "3": {"Display": "Travailler dans une boulangerie industrielle"},
+          "4": {"Display": "Dans un créneau spécifique (glaces, chocolats, etc.)"},
+          "5": {"Display": "Créer ma propre entreprise"},
+          "6": {"Display": "Travailler en dehors du secteur de la boulangerie"},
+          "7": {"Display": "Je ne sais pas (encore)"},
+          "8": {"Display": "Autre :", "TextEntry": "true", "TextEntrySize": "Medium"}
+        },
+        "ChoiceOrder": ["1", "2", "3", "4", "5", "6", "7", "8"],
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "Type": "None"
+          }
+        },
+        "Language": [],
+        "NextChoiceId": 9,
+        "NextAnswerId": 1,
+        "QuestionID": "QID9"
+      }
+    },
+    {
+      "SurveyID": "SV_bakkerijFR2026",
+      "Element": "STAT",
+      "PrimaryAttribute": "Survey Statistics",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "MobileCompatible": true,
+        "ID": "Survey Statistics"
+      }
+    }
+  ]
+}
